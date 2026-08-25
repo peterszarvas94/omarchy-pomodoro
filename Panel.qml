@@ -8,8 +8,8 @@ import "Model.js" as Model
 
 Panel {
   id: root
-  moduleName: "peti.pomodoro"
-  ipcTarget: "peti.pomodoro"
+  moduleName: "io.github.peterszarvas94.pomodoro"
+  ipcTarget: "io.github.peterszarvas94.pomodoro"
   manageIpc: false
 
   property var hostWidget: null

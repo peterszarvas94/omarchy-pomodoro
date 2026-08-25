@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "peti.pomodoro",
+  "id": "io.github.peterszarvas94.pomodoro",
   "name": "Healthy Pomodoro",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Peti",
   "license": "MIT",
   "description": "An evidence-informed focus timer that prompts movement, posture changes, eye rest, and screen-free breaks.",

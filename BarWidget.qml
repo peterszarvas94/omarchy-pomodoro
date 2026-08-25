@@ -7,7 +7,7 @@ import "Model.js" as Model
 
 BarWidget {
   id: root
-  moduleName: "peti.pomodoro"
+  moduleName: "io.github.peterszarvas94.pomodoro"
 
   property string phase: "idle"
   property bool running: false
@@ -158,7 +158,7 @@ BarWidget {
   onSettingsChanged: injectPanel()
 
   IpcHandler {
-    target: "peti.pomodoro"
+    target: "io.github.peterszarvas94.pomodoro"
     function open() { root.open() }
     function close() { root.close() }
     function toggle() { root.togglePanel() }

@@ -14,13 +14,13 @@ omarchy plugin add <git-url> --enable
 The widget defaults to the right side of the bar. Move it later with:
 
 ```bash
-omarchy bar move peti.pomodoro --section right
+omarchy bar move io.github.peterszarvas94.pomodoro --section right
 ```
 
 Add an optional Hyprland shortcut in `~/.config/hypr/bindings.lua`:
 
 ```lua
-o.bind("SUPER + CTRL + ALT + P", "Healthy Pomodoro", "omarchy-shell shell toggle peti.pomodoro")
+o.bind("SUPER + CTRL + ALT + P", "Healthy Pomodoro", "omarchy-shell shell toggle io.github.peterszarvas94.pomodoro")
 ```
 
 Reload Hyprland after changing bindings:
@@ -38,9 +38,9 @@ Omarchy's user plugin directory:
 ```bash
 git clone <git-url> ~/Projects/omarchy-pomodoro
 mkdir -p ~/.config/omarchy/plugins
-ln -s ~/Projects/omarchy-pomodoro ~/.config/omarchy/plugins/peti.pomodoro
+ln -s ~/Projects/omarchy-pomodoro ~/.config/omarchy/plugins/io.github.peterszarvas94.pomodoro
 omarchy-shell shell rescanPlugins
-omarchy plugin enable peti.pomodoro right
+omarchy plugin enable io.github.peterszarvas94.pomodoro right
 omarchy restart shell
 ```
 
